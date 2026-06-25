@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siduva | Professional Virtual Assistant Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            navy: '#0f172a',
+                            blue: '#1e3a8a',
+                            lightBlue: '#3b82f6',
+                            accent: '#f59e0b',
+                            gray: '#f8fafc',
+                            darkGray: '#334155'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.6) 100%), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="font-sans text-brand-darkGray bg-white">
+
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex justify-between items-center">
+            <a href="#home" class="flex items-center gap-2">
+                <img src="image_85165a.png" alt="Siduva Logo" class="h-12 w-12 object-contain" onerror="this.style.display='none'">
+                <span class="text-2xl font-extrabold text-brand-blue tracking-tighter">SIDUVA</span>
+            </a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#home" class="text-sm font-bold text-gray-700 hover:text-brand-blue uppercase transition-colors">Home</a>
+                <a href="#about" class="text-sm font-bold text-gray-700 hover:text-brand-blue uppercase transition-colors">About</a>
+                <a href="#services" class="text-sm font-bold text-gray-700 hover:text-brand-blue uppercase transition-colors">Services</a>
+                <a href="#apply" class="text-sm font-bold bg-brand-blue text-white px-4 py-2 rounded hover:bg-brand-navy transition-all">APPLY HERE</a>
+            </nav>
+            <button id="mobile-menu-btn" class="md:hidden text-2xl"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        
+        <section id="home" class="hero-bg py-16 md:py-32 px-4">
+            <div class="max-w-7xl mx-auto">
+                <h1 class="text-4xl md:text-7xl font-extrabold text-brand-navy mb-6 leading-tight">Grow Your Business,<br>While We Handle the<br>Daily Tasks!</h1>
+                <p class="text-lg md:text-xl text-gray-700 font-bold mb-8">#WorkNowWithSiduva</p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#apply" class="bg-brand-accent text-brand-navy px-8 py-4 font-bold rounded-md shadow-lg hover:shadow-xl transition-all text-center">APPLY HERE</a>
+                    <a href="#contact" class="border-2 border-brand-blue text-brand-blue px-8 py-4 font-bold rounded-md hover:bg-brand-blue hover:text-white transition-all text-center">NEED VA?</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-16 md:py-20 px-4 bg-white">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-navy mb-8 uppercase tracking-wider">About Us</h2>
+                <p class="text-base md:text-lg text-gray-600 mb-12 leading-relaxed">
+                    At SIDUVA, we help businesses achieve greater efficiency and growth by providing highly skilled, reliable, and dedicated Filipino Virtual Assistants. We understand that business owners often spend valuable time on repetitive tasks. We bridge the gap, helping you focus on scaling your business.
+                </p>
+                
+                <div class="grid md:grid-cols-2 gap-8 text-left">
+                    <div class="p-6 bg-gray-50 rounded-xl border border-gray-200">
+                        <h3 class="text-xl font-bold text-brand-blue mb-3">OUR MISSION</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">To empower businesses worldwide by providing exceptional virtual assistance services that improve productivity, support growth, and create lasting business success.</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-xl border border-gray-200">
+                        <h3 class="text-xl font-bold text-brand-blue mb-3">OUR VISION</h3>
+                        <p class="text-sm text-gray-600 leading-relaxed">To become a trusted global partner for businesses seeking professional, reliable, and results-driven virtual assistant solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+   
+        <section id="services" class="py-16 md:py-20 px-4 bg-brand-gray">
+            <div class="max-w-7xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-brand-navy mb-12 text-center uppercase tracking-wider">Services We Offer</h2>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Service Card -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group">
+                        <i class="fas fa-headset text-4xl text-brand-blue mb-4 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="font-bold text-brand-navy text-lg">Customer Service</h3>
+                        <p class="text-sm text-gray-600 mt-2">Professional, patient, and friendly support for your valued customers.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group">
+                        <i class="fas fa-clipboard-check text-4xl text-brand-blue mb-4 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="font-bold text-brand-navy text-lg">Administrative Support</h3>
+                        <p class="text-sm text-gray-600 mt-2">Efficient management of your daily operational tasks and data entry.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group">
+                        <i class="fas fa-chart-line text-4xl text-brand-blue mb-4 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="font-bold text-brand-navy text-lg">Sales Representative</h3>
+                        <p class="text-sm text-gray-600 mt-2">Goal-oriented professionals to help scale your business revenue.</p>
+                    </div>
+                    <!-- Additional Services -->
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group">
+                        <i class="fas fa-phone-alt text-4xl text-brand-blue mb-4 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="font-bold text-brand-navy text-lg">Cold Calling Specialists</h3>
+                        <p class="text-sm text-gray-600 mt-2">Expert outbound callers to drive lead generation and conversion.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group">
+                        <i class="fas fa-user-tie text-4xl text-brand-blue mb-4 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="font-bold text-brand-navy text-lg">Executive Assistance</h3>
+                        <p class="text-sm text-gray-600 mt-2">Personal support for executives to optimize your productivity.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-lg transition-all group">
+                        <i class="fas fa-calendar-alt text-4xl text-brand-blue mb-4 group-hover:scale-110 transition-transform"></i>
+                        <h3 class="font-bold text-brand-navy text-lg">Calendar Management</h3>
+                        <p class="text-sm text-gray-600 mt-2">Seamless email and calendar coordination to keep your day on track.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="apply" class="py-16 md:py-20 px-4">
+            <div class="max-w-3xl mx-auto bg-brand-navy text-white p-8 md:p-12 rounded-2xl shadow-2xl">
+                <h2 class="text-2xl md:text-3xl font-bold mb-6 text-brand-accent">Application Process</h2>
+                <div class="space-y-4 text-sm md:text-base bg-white/10 p-6 rounded-lg backdrop-blur-sm">
+                    <p><strong>Step 1:</strong> Send your resume to <span class="text-brand-accent font-bold">siduvaou@gmail.com</span></p>
+                    <p><strong>Step 2:</strong> Use Subject: (Last Name, Full Name) (Position)</p>
+                    <p><strong>Step 3:</strong> Include a brief self-introduction in the body of your email.</p>
+                    <p><strong>Step 4:</strong> Attach your updated CV in a professional format.</p>
+                </div>
+            </div>
+        </section>
+
+       
+
+
+
+ <section id="contact" class="py-16 md:py-20 px-4 text-center bg-brand-gray">
+            <h2 class="text-2xl md:text-3xl font-bold mb-8 text-brand-navy">Ready to scale your business?</h2>
+            <p class="text-lg mb-6">Contact us at <a href="mailto:siduvaou@gmail.com" class="text-brand-blue font-bold underline">siduvaou@gmail.com</a></p>
+            <div class="flex justify-center gap-6 text-3xl">
+                <a href="#" class="text-brand-blue hover:text-brand-navy transition-colors"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="text-pink-600 hover:text-pink-800 transition-colors"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-black hover:text-gray-700 transition-colors"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-brand-navy text-gray-400 py-10 text-center text-xs md:text-sm px-4">
+        <p>&copy; <span id="year"></span> Siduva Virtual Assistants. All rights reserved.</p>
+        <div class="mt-4 flex flex-wrap justify-center gap-4 text-xs">
+            <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+            <a href="#" class="hover:text-white transition-colors">Terms & Conditions</a>
+            <a href="#" class="hover:text-white transition-colors">Acceptable Use Policy</a>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        
+        // Simple mobile menu toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', () => {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('hidden');
+            nav.classList.toggle('flex');
+            nav.classList.toggle('flex-col');
+            nav.classList.toggle('absolute');
+            nav.classList.toggle('top-20');
+            nav.classList.toggle('left-0');
+            nav.classList.toggle('w-full');
+            nav.classList.toggle('bg-white');
+            nav.classList.toggle('p-6');
+            nav.classList.toggle('shadow-lg');
+        });
+    </script>
+</body>
+</html>
